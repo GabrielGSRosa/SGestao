@@ -1,0 +1,58 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "João Silva",
+        "email": "joao.silva@example.com",
+        "password": "senha123",
+        "role": "user",
+        "permissions": ["read_tasks"],
+        "tasks": [
+          {
+            "id": 1,
+            "title": "Estudar React Native",
+            "completed": false
+          },
+          {
+            "id": 2,
+            "title": "Enviar relatório semanal",
+            "completed": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Maria Oliveira",
+        "email": "maria.oliveira@example.com",
+        "password": "senha456",
+        "role": "gestor",
+        "permissions": ["read_tasks", "create_tasks", "update_tasks"],
+        "tasks": [
+          {
+            "id": 3,
+            "title": "Revisar tarefas da equipe",
+            "completed": false
+          },
+          {
+            "id": 4,
+            "title": "Planejar reunião de equipe",
+            "completed": false
+          },
+          {
+            "id": 5,
+            "title": "Aprovar novos projetos",
+            "completed": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Carlos Souza",
+        "email": "carlos.souza@example.com",
+        "password": "admin789",
+        "role": "admin",
+        "permissions": ["read_tasks", "create_tasks", "update_tasks", "delete_tasks", "manage_users"]
+      }
+    ]
+  }
+  

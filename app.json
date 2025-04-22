@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "task-list",
+    "name": "Task List",
     "slug": "task-list",
     "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/verdadeiro.png",
+    "icon": "./assets/logo-todoList.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "scheme": "task-list",
     "splash": {
-      "image": "./assets/verdadeiro.png",
+      "image": "./assets/logo-todoList.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,7 +21,7 @@
     "android": {
       "versionCode": 4,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/verdadeiro.png",
+        "foregroundImage": "./assets/logo-todoList.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.gabrielschoenfelder.tasklist"
@@ -30,13 +31,19 @@
       "backgroundColor": "#000"
     },
     "web": {
-      "favicon": "./assets/verdadeiro.png"
+      "favicon": "./assets/logo-todoList.png"
     },
     "extra": {
       "eas": {
         "projectId": "0172fe30-7880-4770-b67a-35e7c29ac19f"
       }
     },
-    "owner": "gabrielschoenfelder"
+    "owner": "gabrielschoenfelder",
+    "plugins": [],
+    "entryPoint": "./App.js" 
+  },
+  "experiments": {
+    "tsconfigPaths": true,
+    "typedRoutes": true
   }
 }
